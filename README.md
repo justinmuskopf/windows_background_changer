@@ -1,4 +1,4 @@
-# Windows Background Chagner
+# Windows Background Changer
 A simple python module that changes the current desktop background on Windows to a provided image.
 
 ## Requirements
