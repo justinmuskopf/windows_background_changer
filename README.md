@@ -8,14 +8,12 @@ A simple python module that changes the current desktop background on Windows to
 Running the script independently requires that you provide the image to the script via a commandline argument as so:
   `python windows_background_changer /my/path/to/image`
     
-    Using the class within code is even more simple. A default program might look like this:
-    ```py
-    from windows_background_changer import WindowsBackgroundChanger
+Using the class within code is even more simple. A default program might look like this:
+
+```py
+from windows_background_changer import WindowsBackgroundChanger
+ 
+WindowsBackgroundChanger.change_background(/my/path/to/image)
+```
     
-    WindowsBackgroundChanger.change_background(/my/path/to/image)
-    ```
-    
-    And that's all!
-    
-    
-    python module that changes the current desktop background on Windows to a provided image.
+And that's all!
