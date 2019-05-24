@@ -13,7 +13,7 @@ Using the class within code is even more simple. A default program might look li
 ```py
 from windows_background_changer import WindowsBackgroundChanger
  
-WindowsBackgroundChanger.change_background(/my/path/to/image)
+WindowsBackgroundChanger.change_background('/my/path/to/image')
 ```
     
 And that's all!
