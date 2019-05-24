@@ -16,5 +16,10 @@ from windows_background_changer import WindowsBackgroundChanger
  
 WindowsBackgroundChanger.change_background('/my/path/to/image')
 ```
-    
+
+## Example
+My personal usage of this script is included in the [example](/example) directory.
+It accepts an API key to the NASA Astronomy Picture of the Day (APOD) API and sets your Windows background to today's picture.
+
+
 And that's all!
