@@ -10,21 +10,6 @@ API_KEY = argv[1] if len(argv) == 2 else exit(1)
 
 ABS_PATH = os.path.dirname(os.path.abspath(__file__))
 
-KEYWORDS = [
-    'mercury',
-    'venus',
-    'earth',
-    'mars',
-    'saturn',
-    'neptune',
-    'jupiter',
-    'uranus',
-    'apollo',
-    'space',
-    'comet',
-    'sun'
-]
-
 SEARCH = 'https://api.nasa.gov/planetary/apod?api_key={}'
 
 o = json.loads(requests.get(SEARCH.format(API_KEY)).content)
