@@ -1,7 +1,5 @@
 import requests
 import json
-import random
-import ctypes
 import os
 from sys import argv
 from windows_background_changer import WindowsBackgroundChanger
